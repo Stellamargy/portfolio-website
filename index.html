@@ -50,33 +50,53 @@
             <p>👋Hello, I am,</p>
             <h1>STELLA MARGY</h1>
             <p>A Front End Developer,based in Kenya 🇰🇪</p>
-            <a href="about.html"  title="Get to know me">About Me</a>
+            <a href="about.html"  title="Get to know me" class="link-btn">About Me</a>
         </section>
-        <section >
-            <h2>Featured Projects</h2>
-            <img src="images/image-2.jpg" alt="Podcast App" >
-            <img src="images/finance-tracker.jpg" alt="Finance Tracker App">
-            <img src="images/weather.png" alt="Weather App">
+        <section class="featured-projects mt-5 mb-5">
+            <h2 class="text-center p-2">Featured Projects</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href=""><img src="images/image-2.jpg" alt="Podcast App" class="img-fluid border-3 rounded" ></a>
+                </div>
+                <div class="col-sm-6">
+                  <a href=""><img src="images/finance-tracker.jpg" alt="Finance Tracker App" class="img-fluid border-3 rounded"></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="project-wrapper col-sm-6">
+                  <a href=""><img src="images/weather.png" alt="Weather App" class="img-fluid border-3 rounded p-4"></a>
+                </div>
+              </div>
+            </div>  
         </section>
-        <section>
-            <h2>Work inquiry</h2>
-            <p>Let's bring your ideas to <em>life</em> !</p>
-            <a href="contact.html"  title="contact me for work inquiry">Contact Me</a>
+        <section class="contact-section ">
+            <div >
+              <h2>Work inquiry</h2>
+              <p>Let's bring your ideas to <em>life</em> !</p>
+            </div>
+            <div>
+              <a href="contact.html"  title="contact me for work inquiry" class="link-btn">Contact Me</a>
+            </div>
         </section>
     </main>
-    <footer>
+   
+    <footer class=" mt-5 p-4 ">
         <address>
-            <p>stellahmargy0211@gmail.com</p>
-            <a href="https://github.com/Stellamargy" title="let's connect on github" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://twitter.com/StellaMargy1" title="let's connect on twitter" target="_blank">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            <a>
-            <a href="https://www.linkedin.com/in/stella-margy-4a5a42231/" title="let's connect on linkedin">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
+            <p class="text-center"><a href="mailto:stellahmargy0211@gmail.com " class="text-decoration-none">stellahmargy0211@gmail.com</a></p>
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://github.com/Stellamargy" title="let's connect on github" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com/StellaMargy1" title="let's connect on twitter" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+                <a href="https://www.linkedin.com/in/stella-margy-4a5a42231/" title="let's connect on linkedin">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
         </address>
+        <p class="coder">This project was coded by <a href="https://github.com/Stellamargy" target="_blank">Stella Margy</a> and is open-sourced on <a href="https://github.com/Stellamargy/portfolio-website" target="_blank">github</a></p>
     </footer>
 </body>
 </html>

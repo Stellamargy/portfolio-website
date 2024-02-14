@@ -3,7 +3,16 @@
     --other-text-font-family: "Poppins", sans-serif;
     --background-color:#F9F7FE;
 }
-
+h2{
+    font-family: var(--heading-font-family);
+    font-size:30px;
+    line-height:30px;
+}
+p{
+    font-family: var(--other-text-font-family);
+    line-height: 30px;
+    font-size: 20px;
+}
 .navigation-link{
     text-transform: uppercase;
     transition: all 200 ms ease-in-out;
@@ -19,15 +28,17 @@
 }
 .hero{
     background-color: #F9F7FE;
-    padding:160px 20px;
+    padding:90px 20px;
 }
 .hero h1{
     font-size: 96px;
+    font-family: var(--heading-font-family);
 }
 .hero p{
     font-size: 36px;
+    font-family: var(--other-text-font-family);
 }
- section a{
+ .link-btn{
     display:inline-block;
     text-decoration: none;
     background-color:#6C63FF; 
@@ -40,8 +51,44 @@
     transition: all 200 ms ease-in-out;
 
  }
- section a:hover{
+ .link-btn:hover{
     color: #6C63FF;
     background-color: white;
     border: 1px solid #6C63FF;
+ }
+ .project-wrapper{
+    margin:0 auto;
+ }
+ .featured-projects{
+    margin:px 0;
+ }
+ .contact-section{
+    display:flex;
+    justify-content:space-between;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    margin:0 30px;
+    padding:20px;
+    
+ }
+ 
+ footer a{
+    color: #6C63FF;
+ }
+ .coder{
+    font-size: 14px;
+    text-align: center;
+ }
+ .social-links a{
+    margin:0 20px;
+    background-color: var(--background-color);
+    color:#6C63FF;
+    border-radius: 50%;
+    padding: 12px 18px;
+    font-size: 18px;
+    transition: all 200 ms ease-in-out;
+ }
+ .social-links a:hover{
+    color: var(--background-color);
+    background-color: #6C63FF;
  }
