@@ -13,6 +13,22 @@ p{
     line-height: 30px;
     font-size: 20px;
 }
+div h1{
+    font-size: 40px;
+    font-family: var(--heading-font-family);
+    line-height: 80px;
+    font-weight: 900;
+}
+div h2{
+    font-weight: 900px;
+    line-height: 40px;
+}
+div p{
+    font-size: 18px;
+    font-family: var(--other-text-font-family);
+    line-height: 1.5;
+    
+}
 .navigation-link{
     text-transform: uppercase;
     transition: all 200 ms ease-in-out;
