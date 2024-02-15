@@ -106,3 +106,6 @@ h1{
     color: var(--background-color);
     background-color: #6C63FF;
  }
+.contact-container a{
+    color:#6C63FF;
+}
