@@ -109,7 +109,7 @@ h1{
 .contact-container a{
     color:#6C63FF;
 }
- @media(max-width:450px){
+ @media(max-width:575px){
    .hero h1{
     font-size: 59px;
    }
@@ -118,5 +118,17 @@ h1{
    }
    .contact-section{
     display:none;
+   }
+   .featured-project-image{
+    margin-top:20px;
+   }
+   .about-me-info{
+    text-align: center;
+   }
+   .app-image{
+    margin-top: 30px;
+   }
+   .project-container{
+    text-align: center;
    }
  }
