@@ -109,3 +109,14 @@ h1{
 .contact-container a{
     color:#6C63FF;
 }
+ @media(max-width:450){
+   .hero h1{
+    font-size: 59px;
+   }
+   .hero p{
+    font-size: 25px;
+   }
+   .contact-section{
+    display:none
+   }
+ }
