@@ -6,32 +6,25 @@
 h2{
     font-family: var(--heading-font-family);
     font-size:30px;
-    line-height:30px;
+    line-height:25px;
+    font-weight: 600;
 }
 p{
     font-family: var(--other-text-font-family);
     line-height: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
-div h1{
+h1{
     font-size: 40px;
     font-family: var(--heading-font-family);
     line-height: 80px;
     font-weight: 900;
 }
-div h2{
-    font-weight: 900px;
-    line-height: 40px;
-}
-div p{
-    font-size: 18px;
-    font-family: var(--other-text-font-family);
-    line-height: 1.5;
-    
-}
+
+
 .navigation-link{
     text-transform: uppercase;
-    transition: all 200 ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 .navigation-link:hover{
     color:#6C63FF;
@@ -40,7 +33,7 @@ div p{
 .logo{
     font-family: var(--other-text-font-family);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 200;
 }
 .hero{
     background-color: #F9F7FE;
@@ -64,7 +57,7 @@ div p{
     line-height: 27px;
     padding: 18px 30px;
     margin: 20px;
-    transition: all 200 ms ease-in-out;
+    transition: all 200ms ease-in-out;
 
  }
  .link-btn:hover{
@@ -75,9 +68,7 @@ div p{
  .project-wrapper{
     margin:0 auto;
  }
- .featured-projects{
-    margin:px 0;
- }
+ 
  .contact-section{
     display:flex;
     justify-content:space-between;
@@ -90,6 +81,13 @@ div p{
  
  footer a{
     color: #6C63FF;
+    font-size:20px;
+    color:black;
+    
+ }
+ .coder a{
+    font-size: 14px;
+    color:#6C63FF
  }
  .coder{
     font-size: 14px;
@@ -102,7 +100,7 @@ div p{
     border-radius: 50%;
     padding: 12px 18px;
     font-size: 18px;
-    transition: all 200 ms ease-in-out;
+    transition: all 200ms ease-in-out;
  }
  .social-links a:hover{
     color: var(--background-color);
